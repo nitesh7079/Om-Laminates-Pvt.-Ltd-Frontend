@@ -8,10 +8,10 @@ export const productDetails = [
     description:
       "2.5mm Core veneer is designed for high-strength plywood manufacturing with stable thickness, reliable bonding behavior, and consistent layer integrity.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -40,10 +40,10 @@ export const productDetails = [
     description:
       "2.5mm Fali veneer offers clean grain quality and dependable surface behavior, suitable for plywood units requiring consistency and finish quality.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -72,10 +72,10 @@ export const productDetails = [
     description:
       "1.8mm Core veneer is ideal for lightweight panel requirements while maintaining structural balance and consistent bonding across board layers.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -104,10 +104,10 @@ export const productDetails = [
     description:
       "1.8mm Fali veneer delivers clean layering performance for manufacturers requiring thinner veneer with consistent quality output.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -135,10 +135,10 @@ export const productDetails = [
     image: productImageLinks["2.4mm Core"],
     description: "2.4mm Core veneer is designed for high-strength plywood manufacturing with stable thickness and consistent layer integrity.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -165,10 +165,10 @@ export const productDetails = [
     image: productImageLinks["2.4mm Fali"],
     description: "2.4mm Fali veneer offers clean grain quality and dependable surface behavior, suitable for plywood units requiring consistency.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
  
     features: [
@@ -195,10 +195,10 @@ export const productDetails = [
     image: productImageLinks["2mm Core"],
     description: "2mm Core veneer is designed for high-strength plywood manufacturing with stable thickness and consistent layer integrity.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
 
     features: [
@@ -225,10 +225,10 @@ export const productDetails = [
     image: productImageLinks["2mm Fali"],
     description: "2mm Fali veneer offers clean grain quality and dependable surface behavior, suitable for plywood units requiring consistency.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
 
     features: [
@@ -255,10 +255,10 @@ export const productDetails = [
     image: productImageLinks["Half Cut 8 Inch"],
     description: "Half Cut 8 Inch veneer offers specialized dimensions for unique plywood manufacturing requirements.",
     gallery: [
-      "/images/core/IMG_6686.jpg",
-      "/images/core/IMG_6687.jpg",
-      "/images/core/IMG_6690.jpg",
-      "/images/core/IMG_6694.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616254/om_veneer/core/IMG_6686.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616255/om_veneer/core/IMG_6687.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg",
+      "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616263/om_veneer/core/IMG_6694.jpg",
     ],
     features: [
       "Custom 8-inch cut for specialized processing",

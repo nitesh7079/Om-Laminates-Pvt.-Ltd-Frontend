@@ -246,7 +246,7 @@ function ProductsPage() {
         {/* Cinematic Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/images/company/IMG_6683.jpg" 
+            src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616250/om_veneer/company/IMG_6683.jpg" 
             alt="Om Veneer Factory Custom Orders" 
             className="w-full h-full object-cover object-center"
           />

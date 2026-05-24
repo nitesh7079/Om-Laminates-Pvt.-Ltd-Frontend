@@ -43,13 +43,13 @@ export default function HomePage() {
   const heroY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
 
   const heroSliderImages = useMemo(() => [
-    "/images/company/IMG_6675.jpg",
-    "/images/core/IMG_6689.jpg",
-    "/images/goliya/IMG_6656.jpg",
-    "/images/core/IMG_6692.jpg",
-    "/images/company/IMG_6683.jpg",
-    "/images/goliya/IMG_6662.jpg",
-    "/images/core/IMG_6690.jpg"
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616257/om_veneer/core/IMG_6689.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616265/om_veneer/goliya/IMG_6656.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616260/om_veneer/core/IMG_6692.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616250/om_veneer/company/IMG_6683.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616273/om_veneer/goliya/IMG_6662.jpg",
+    "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616258/om_veneer/core/IMG_6690.jpg"
   ], []);
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -155,7 +155,7 @@ export default function HomePage() {
               <div key={`row1-${index}`} className="w-56 h-56 md:w-72 md:h-72 flex-shrink-0 mx-3 overflow-hidden rounded-2xl shadow-lg border border-gray-200 bg-white p-2">
                 <div className="w-full h-full rounded-xl overflow-hidden relative">
                   <img
-                    src={`/images/goliya/${img}`}
+                    src={`https://res.cloudinary.com/ddpcospqm/image/upload/v1779616265/om_veneer/goliya/${img}`}
                     alt="Timber Stock"
                     className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                     loading="lazy"
@@ -172,7 +172,7 @@ export default function HomePage() {
               <div key={`row2-${index}`} className="w-56 h-56 md:w-72 md:h-72 flex-shrink-0 mx-3 overflow-hidden rounded-2xl shadow-lg border border-gray-200 bg-white p-2">
                 <div className="w-full h-full rounded-xl overflow-hidden relative">
                   <img
-                    src={`/images/goliya/${img}`}
+                    src={`https://res.cloudinary.com/ddpcospqm/image/upload/v1779616265/om_veneer/goliya/${img}`}
                     alt="Timber Stock"
                     className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                     loading="lazy"
@@ -226,8 +226,8 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="grid grid-cols-2 gap-4"
             >
-              <img src="/images/company/IMG_6675.jpg" alt="Factory" className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg transform translate-y-8" />
-              <img src="/images/company/IMG_6702.jpg" alt="Wood" className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" />
+              <img src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg" alt="Factory" className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg transform translate-y-8" />
+              <img src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616253/om_veneer/company/IMG_6702.jpg" alt="Wood" className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" />
             </motion.div>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default function HomePage() {
         {/* Cinematic Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/images/company/IMG_6675.jpg"
+            src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg"
             alt="Om Veneer Factory"
             className="w-full h-full object-cover object-center"
           />

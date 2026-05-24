@@ -4,20 +4,20 @@ import PageLayout from "../components/PageLayout";
 import { useState, useEffect } from "react";
 
 const companyPhotos = [
-  "/images/company/IMG_6675.jpg",
-  "/images/company/IMG_6680.jpg",
-  "/images/company/IMG_6683.jpg",
-  "/images/company/IMG_6685.jpg",
-  "/images/company/IMG_6702.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616249/om_veneer/company/IMG_6680.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616250/om_veneer/company/IMG_6683.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616251/om_veneer/company/IMG_6685.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616253/om_veneer/company/IMG_6702.jpg",
 ];
 
 const sliderImages = [
-  "/images/company/IMG_6675.jpg",
-  "/images/goliya/IMG_6656.jpg",
-  "/images/products/2-5mm-core.jpg",
-  "/images/goliya/IMG_6662.jpg",
-  "/images/company/IMG_6683.jpg",
-  "/images/products/1-8mm-core.jpg"
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616265/om_veneer/goliya/IMG_6656.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616305/om_veneer/products/2-5mm-core.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616273/om_veneer/goliya/IMG_6662.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616250/om_veneer/company/IMG_6683.jpg",
+  "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616303/om_veneer/products/1-8mm-core.jpg"
 ];
 
 const branchNetwork = [
@@ -173,7 +173,7 @@ function CompanyPage() {
                   >
                     <div className="relative aspect-square">
                       <img 
-                        src={`/images/goliya/${img}`} 
+                        src={`https://res.cloudinary.com/ddpcospqm/image/upload/v1779616265/om_veneer/goliya/${img}`} 
                         alt={`Timber Inventory ${index + 1}`} 
                         className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
                         loading="lazy"
@@ -277,10 +277,10 @@ function CompanyPage() {
         <div className="max-w-7xl mx-auto px-5 md:px-10 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative">
              <div className="border-4 border-orange rounded-lg overflow-hidden relative z-10">
-               <img src="/images/owner/IMG_6722.jpg" alt="Founder" className="w-full h-[500px] object-cover" />
+               <img src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616302/om_veneer/owner/IMG_6722.jpg" alt="Founder" className="w-full h-[500px] object-cover" />
              </div>
              <div className="absolute -bottom-6 -right-6 w-48 h-48 border-4 border-white rounded-lg overflow-hidden z-20 hidden md:block shadow-xl">
-               <img src="/images/owner/IMG_6712.jpg" alt="Founder" className="w-full h-full object-cover" />
+               <img src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616301/om_veneer/owner/IMG_6712.jpg" alt="Founder" className="w-full h-full object-cover" />
              </div>
           </div>
           <div>
