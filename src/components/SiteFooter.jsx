@@ -10,7 +10,7 @@ function SiteFooter() {
           <div className="md:col-span-5">
             <Link to="/" className="flex items-center gap-3">
               <img
-                src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616308/om_veneer/products/logo.png"
+                src="/logo.png"
                 alt="Om Laminates logo"
                 className="h-20 w-auto rounded bg-white p-2"
               />

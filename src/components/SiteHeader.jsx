@@ -18,7 +18,7 @@ function SiteHeader() {
           aria-label="Om Laminates Pvt. Ltd."
         >
           <img
-            src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616308/om_veneer/products/logo.png"
+            src="/logo.png"
             alt="Om Laminates logo"
             className="h-12 w-auto object-contain sm:h-16"
           />
