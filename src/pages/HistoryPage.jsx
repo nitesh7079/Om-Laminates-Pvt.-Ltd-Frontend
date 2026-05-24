@@ -37,8 +37,9 @@ const spreadPoints = [
   "Head Office: Birtamode-2, Jhapa",
   "Branch Support: Birgunj",
   "Branch Support: Bardibas",
-  "Branch Support: Itahari Branch 1",
-  "Branch Support: Itahari Branch 2",
+  "Branch Support: Inarwa",
+  "Branch Support: Birtamode Jhapa Branch 2",
+  "Branch Support: Dhulabari",
 ];
 
 function HistoryPage() {
@@ -144,7 +145,7 @@ function HistoryPage() {
                    transition={{ delay: index * 0.1 }}
                    className="bg-navy-lighter p-6 rounded-lg border border-navy-light shadow-lg"
                  >
-                   <p className="text-xs font-bold uppercase tracking-widest text-orange mb-2">Network Node</p>
+                   <p className="text-xs font-bold uppercase tracking-widest text-orange mb-2">Production Mode</p>
                    <p className="text-white font-bold">{point}</p>
                  </motion.div>
                ))}

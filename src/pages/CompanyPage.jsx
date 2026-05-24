@@ -34,12 +34,16 @@ const branchNetwork = [
     note: "Supply facilitation for western-side plywood production partners.",
   },
   {
-    branch: "Itahari Branch 1",
+    branch: "Inarwa Branch",
     note: "Regional handling and fast-response dispatch support in eastern corridor.",
   },
   {
-    branch: "Itahari Branch 2",
-    note: "Second Itahari branch for expanded dispatch capacity and faster regional supply support.",
+    branch: "Birtamode Jhapa Branch 2",
+    note: "Second Birtamode branch for expanded dispatch capacity and faster regional supply support.",
+  },
+  {
+    branch: "Dhulabari Branch",
+    note: "Additional support node for cross-border and eastern trade coordination.",
   },
 ];
 
@@ -99,7 +103,7 @@ function CompanyPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             ["10+ Years", "Experience"],
-            ["5 Branches", "Across Nepal"],
+            ["6 Branches", "Across Nepal"],
             ["Nepal + India", "Active Markets"],
             ["Core + Fali", "Focus Areas"],
           ].map(([value, label], i) => (
@@ -307,7 +311,7 @@ function CompanyPage() {
          <div className="max-w-7xl mx-auto px-5 md:px-10">
             <div className="text-center max-w-2xl mx-auto mb-16">
               <p className="text-sm font-bold uppercase tracking-widest text-orange mb-3">Our Reach</p>
-              <h2 className="text-4xl font-bold font-heading text-navy">5 Branch Presence Across Nepal</h2>
+              <h2 className="text-4xl font-bold font-heading text-navy">6 Branch Presence Across Nepal</h2>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
