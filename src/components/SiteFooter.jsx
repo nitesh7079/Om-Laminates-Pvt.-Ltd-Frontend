@@ -45,10 +45,10 @@ function SiteFooter() {
                 </a>
               </p>
               <a
-                href="mailto:niteshrajkumar66@gmail.com"
+                href="mailto:ronak.ag583@gmail.com"
                 className="text-orange transition hover:text-orange-light hover:underline"
               >
-                niteshrajkumar66@gmail.com
+                ronak.ag583@gmail.com
               </a>
             </div>
           </div>
