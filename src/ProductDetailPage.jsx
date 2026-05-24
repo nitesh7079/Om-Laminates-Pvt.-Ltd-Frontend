@@ -143,7 +143,6 @@ function ProductDetailPage() {
                   </motion.div>
                 ))}
               </div>
-            )}
           </div>
         </section>
       )}
