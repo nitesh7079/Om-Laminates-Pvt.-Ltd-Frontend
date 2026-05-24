@@ -94,7 +94,7 @@ function ContactPage() {
                   <span className="font-bold text-navy">Response:</span> <span>Within 24 Hours</span>
                 </li>
                 <li className="flex justify-between pb-2">
-                  <span className="font-bold text-navy">Focus:</span> <span>2.5mm / 1.8mm Core</span>
+                  <span className="font-bold text-navy">Focus:</span> <span>Core and Fali</span>
                 </li>
               </ul>
             </div>
