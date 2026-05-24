@@ -15,15 +15,27 @@ function ContactPage() {
     setContact((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    window.alert("Thank you. Our team will contact you soon.");
-    setContact({
-      name: "",
-      phone: "",
-      inquiryType: "Raw Material Enquiry",
-      message: "",
-    });
+    try {
+      await fetch("https://formsubmit.co/ajax/niteshrajkumar66@gmail.com", {
+        method: "POST",
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(contact)
+      });
+      window.alert("Thank you. Our team will contact you soon.");
+      setContact({
+        name: "",
+        phone: "",
+        inquiryType: "Raw Material Enquiry",
+        message: "",
+      });
+    } catch (error) {
+      window.alert("There was an error sending your message. Please try again or email us directly.");
+    }
   };
 
   return (
@@ -49,12 +61,12 @@ function ContactPage() {
               <h3 className="text-2xl font-bold font-heading text-navy mb-4">Head Office</h3>
               <div className="space-y-2 text-text-main">
                 <p className="font-bold">Om Laminates Pvt. Ltd.</p>
-                <p>Birtamode-3, Jhapa, Nepal</p>
-                <p>PAN: 600496320</p>
+                <p>Birtamode-2, Jhapa, Nepal</p>
+                <p>Pan No. 610067505</p>
                 <p className="pt-4 border-t border-gray-100 mt-4">
-                  <a href="mailto:support@omveneer.online" className="text-orange hover:text-orange-light font-bold flex items-center gap-2">
+                  <a href="mailto:niteshrajkumar66@gmail.com" className="text-orange hover:text-orange-light font-bold flex items-center gap-2">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                    support@omveneer.online
+                    niteshrajkumar66@gmail.com
                   </a>
                 </p>
               </div>

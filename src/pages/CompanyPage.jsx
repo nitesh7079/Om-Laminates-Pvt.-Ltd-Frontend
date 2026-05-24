@@ -22,7 +22,7 @@ const sliderImages = [
 
 const branchNetwork = [
   {
-    branch: "Head Office - Birtamod, Jhapa",
+    branch: "Head Office - Birtamode-2, Jhapa",
     note: "Primary operations, quality control, and dispatch coordination center.",
   },
   {
@@ -123,7 +123,7 @@ function CompanyPage() {
             <h2 className="text-4xl font-bold font-heading text-navy mb-6">Built on Trust, Delivered with Precision.</h2>
             <div className="space-y-4 text-text-main leading-relaxed">
               <p>
-                Based in Birtamod, Jhapa, Om Laminates Pvt. Ltd. has spent the last 10 years perfecting the supply of 2.5mm and 1.8mm core and fali veneer.
+                Based in Birtamode-2, Jhapa, Om Laminates Pvt. Ltd. has spent the last 10 years perfecting the supply of 2.5mm and 1.8mm core and fali veneer.
               </p>
               <p>
                 Our philosophy is simple: plywood factories need predictability. By maintaining strict quality controls on thickness and moisture, and ensuring reliable dispatch, we help factories reduce waste and maintain steady production lines.

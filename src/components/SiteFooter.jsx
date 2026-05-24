@@ -36,19 +36,19 @@ function SiteFooter() {
           <div className="md:col-span-3">
             <p className="font-heading text-sm font-bold uppercase tracking-widest text-gray-400">Contact</p>
             <div className="mt-5 flex flex-col space-y-3 text-sm text-gray-300">
-              <p>Birtamode-3, Jhapa, Nepal</p>
-              <p>PAN: 600496320</p>
+              <p>Birtamode-2, Jhapa, Nepal</p>
+              <p>Pan No. 610067505</p>
               <p>
                 Tel:{" "}
-                <a href="tel:+9779860218415" className="hover:text-orange transition">
-                  +977 9860218415
+                <a href="tel:+9779816968393" className="hover:text-orange transition">
+                  +977 9816968393
                 </a>
               </p>
               <a
-                href="mailto:support@omveneer.online"
+                href="mailto:niteshrajkumar66@gmail.com"
                 className="text-orange transition hover:text-orange-light hover:underline"
               >
-                support@omveneer.online
+                niteshrajkumar66@gmail.com
               </a>
             </div>
           </div>

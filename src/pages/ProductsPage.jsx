@@ -278,11 +278,10 @@ function ProductsPage() {
             We handle bulk custom orders for specific thickness and dimension requirements. Contact our sales team to discuss your exact factory needs.
           </p>
           
-          <Link to="/contact" className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-orange rounded-lg overflow-hidden hover:scale-105 shadow-[0_0_40px_rgba(255,107,53,0.4)] hover:shadow-[0_0_60px_rgba(255,107,53,0.6)]">
-            <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-black"></span>
-            <span className="relative text-lg tracking-wider uppercase flex items-center gap-3">
+          <Link to="/contact" className="group relative inline-flex items-center justify-center px-10 py-5 font-bold text-white transition-all duration-300 bg-orange rounded-full overflow-hidden hover:bg-orange-light shadow-[0_8px_25px_rgba(182,141,83,0.4)] hover:shadow-[0_12px_35px_rgba(182,141,83,0.6)] hover:-translate-y-1">
+            <span className="relative text-sm tracking-[0.2em] uppercase flex items-center gap-3">
               Request Custom Quote
-              <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </span>
           </Link>
         </motion.div>

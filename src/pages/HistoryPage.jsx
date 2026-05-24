@@ -7,7 +7,7 @@ const historyMilestones = [
     year: "Phase 1",
     title: "Small Factory Foundation",
     detail:
-      "Om Laminates Pvt. Ltd. began in Birtamod, Jhapa, with a compact factory setup and a simple but serious mission: supply dependable veneer raw material that factories could trust every day. In the early years, operations were handled by a small team that focused on grading discipline, careful stacking, and on-time dispatch for nearby plywood units. Rather than chasing rapid expansion, the company built its base through process consistency and practical service reliability.",
+      "Om Laminates Pvt. Ltd. began in Birtamode-2, Jhapa, with a compact factory setup and a simple but serious mission: supply dependable veneer raw material that factories could trust every day. In the early years, operations were handled by a small team that focused on grading discipline, careful stacking, and on-time dispatch for nearby plywood units. Rather than chasing rapid expansion, the company built its base through process consistency and practical service reliability.",
     image: productImageLinks["2.5mm Core"],
   },
   {
@@ -34,7 +34,7 @@ const historyMilestones = [
 ];
 
 const spreadPoints = [
-  "Head Office: Birtamod, Jhapa",
+  "Head Office: Birtamode-2, Jhapa",
   "Branch Support: Birgunj",
   "Branch Support: Bardibas",
   "Branch Support: Itahari Branch 1",
@@ -61,7 +61,7 @@ function HistoryPage() {
            <div className="grid md:grid-cols-2 gap-8 text-text-main text-lg leading-relaxed">
               <div>
                  <p className="mb-4">
-                  Om Laminates Pvt. Ltd. started as a small factory-driven veneer supplier in Birtamod with limited volume,
+                  Om Laminates Pvt. Ltd. started as a small factory-driven veneer supplier in Birtamode-2 with limited volume,
                   limited manpower, and a clear long-term mindset. In the beginning, the company served nearby plywood
                   manufacturers by focusing on what matters most in raw material supply: dependable grading, stable quality,
                   and timely dispatch.
@@ -122,7 +122,7 @@ function HistoryPage() {
                 <h2 className="text-4xl font-bold font-heading text-white mb-6">Branch-Supported Growth Model</h2>
                 <div className="space-y-4 text-gray-300 text-lg">
                    <p>
-                     What began with one unit in Birtamod now operates through a branch-backed structure across Nepal. This
+                     What began with one unit in Birtamode-2 now operates through a branch-backed structure across Nepal. This
                      network model improves order coordination between factories and dispatch teams, enables faster response to
                      regional demand changes, and supports more accurate delivery timelines.
                    </p>
