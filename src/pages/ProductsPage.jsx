@@ -247,7 +247,7 @@ function ProductsPage() {
         <div className="absolute inset-0">
           <img 
             src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616250/om_veneer/company/IMG_6683.jpg" 
-            alt="Om Veneer Factory Custom Orders" 
+            alt="Om Laminates Factory Custom Orders" 
             className="w-full h-full object-cover object-center"
           />
           {/* Deep Navy to Transparent Gradient Overlay */}

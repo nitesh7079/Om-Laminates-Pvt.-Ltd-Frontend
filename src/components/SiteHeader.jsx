@@ -15,11 +15,11 @@ function SiteHeader() {
         <Link
           to="/"
           className="flex items-center gap-3"
-          aria-label="Om Veneer Pvt. Ltd."
+          aria-label="Om Laminates Pvt. Ltd."
         >
           <img
             src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616308/om_veneer/products/logo.png"
-            alt="Om Veneer logo"
+            alt="Om Laminates logo"
             className="h-12 w-auto object-contain sm:h-16"
           />
         </Link>

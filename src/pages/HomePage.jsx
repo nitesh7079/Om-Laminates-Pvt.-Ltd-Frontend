@@ -283,7 +283,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <img
             src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616248/om_veneer/company/IMG_6675.jpg"
-            alt="Om Veneer Factory"
+            alt="Om Laminates Factory"
             className="w-full h-full object-cover object-center"
           />
           {/* Deep Navy to Transparent Gradient Overlay */}
@@ -311,7 +311,7 @@ export default function HomePage() {
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto font-light leading-relaxed [text-shadow:_0_4px_8px_rgb(0_0_0_/_0.5)]">
-            Join the top factories across Nepal and India. Partner with Om Veneer Pvt. Ltd. for flawless consistency, transparent communication, and guaranteed timely dispatch.
+            Join the top factories across Nepal and India. Partner with Om Laminates Pvt. Ltd. for flawless consistency, transparent communication, and guaranteed timely dispatch.
           </p>
 
           <Link to="/contact" className="group relative inline-flex items-center justify-center px-10 py-5 font-bold text-white transition-all duration-300 bg-orange rounded-full overflow-hidden hover:bg-orange-light shadow-[0_8px_25px_rgba(182,141,83,0.4)] hover:shadow-[0_12px_35px_rgba(182,141,83,0.6)] hover:-translate-y-1">

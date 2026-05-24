@@ -48,7 +48,7 @@ function ContactPage() {
             <div className="modern-card p-8 border-l-4 border-l-orange">
               <h3 className="text-2xl font-bold font-heading text-navy mb-4">Head Office</h3>
               <div className="space-y-2 text-text-main">
-                <p className="font-bold">Om Veneer Pvt. Ltd.</p>
+                <p className="font-bold">Om Laminates Pvt. Ltd.</p>
                 <p>Birtamode-3, Jhapa, Nepal</p>
                 <p>PAN: 600496320</p>
                 <p className="pt-4 border-t border-gray-100 mt-4">

@@ -329,7 +329,7 @@ const Login = () => {
 
           <h1 className="login-title">Veneer ERP</h1>
           <p className="login-subtitle">Enterprise Resource Planning</p>
-          <p className="login-tagline">Om Veneer Pvt. Ltd.</p>
+          <p className="login-tagline">Om Laminates Pvt. Ltd.</p>
 
           <div className="divider">
             <div className="divider-line" />
@@ -434,7 +434,7 @@ const Login = () => {
               Don&apos;t have an account?{' '}
               <Link to="/register">Create New Account</Link>
             </p>
-            <p className="copyright">© {new Date().getFullYear()} Om Veneer ERP · All rights reserved.</p>
+            <p className="copyright">© {new Date().getFullYear()} Om Laminates ERP · All rights reserved.</p>
           </div>
         </div>
       </div>

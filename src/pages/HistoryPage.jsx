@@ -7,7 +7,7 @@ const historyMilestones = [
     year: "Phase 1",
     title: "Small Factory Foundation",
     detail:
-      "Om Veneer Pvt. Ltd. began in Birtamod, Jhapa, with a compact factory setup and a simple but serious mission: supply dependable veneer raw material that factories could trust every day. In the early years, operations were handled by a small team that focused on grading discipline, careful stacking, and on-time dispatch for nearby plywood units. Rather than chasing rapid expansion, the company built its base through process consistency and practical service reliability.",
+      "Om Laminates Pvt. Ltd. began in Birtamod, Jhapa, with a compact factory setup and a simple but serious mission: supply dependable veneer raw material that factories could trust every day. In the early years, operations were handled by a small team that focused on grading discipline, careful stacking, and on-time dispatch for nearby plywood units. Rather than chasing rapid expansion, the company built its base through process consistency and practical service reliability.",
     image: productImageLinks["2.5mm Core"],
   },
   {
@@ -51,7 +51,7 @@ function HistoryPage() {
             From Small Factory to Nepal-Wide Network.
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            The history of Om Veneer Pvt. Ltd. is not a story of sudden growth; it is the result of years of steady work, operational honesty, and long-term partnership thinking.
+            The history of Om Laminates Pvt. Ltd. is not a story of sudden growth; it is the result of years of steady work, operational honesty, and long-term partnership thinking.
           </p>
         </div>
       </section>
@@ -61,7 +61,7 @@ function HistoryPage() {
            <div className="grid md:grid-cols-2 gap-8 text-text-main text-lg leading-relaxed">
               <div>
                  <p className="mb-4">
-                  Om Veneer Pvt. Ltd. started as a small factory-driven veneer supplier in Birtamod with limited volume,
+                  Om Laminates Pvt. Ltd. started as a small factory-driven veneer supplier in Birtamod with limited volume,
                   limited manpower, and a clear long-term mindset. In the beginning, the company served nearby plywood
                   manufacturers by focusing on what matters most in raw material supply: dependable grading, stable quality,
                   and timely dispatch.
@@ -157,7 +157,7 @@ function HistoryPage() {
          <div className="max-w-4xl mx-auto px-5">
             <h2 className="text-3xl font-bold font-heading text-navy mb-6">Our Current Position</h2>
             <p className="text-lg text-text-main leading-relaxed mb-10">
-              Today, Om Veneer Pvt. Ltd. is recognized as a trusted high-volume veneer raw material supplier for
+              Today, Om Laminates Pvt. Ltd. is recognized as a trusted high-volume veneer raw material supplier for
               plywood and door board manufacturing. From sourcing and grading to quality checks and dispatch, each stage
               is managed with professional discipline and operational accountability.
             </p>

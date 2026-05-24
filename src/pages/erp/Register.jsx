@@ -299,7 +299,7 @@ const Register = () => {
           </div>
 
           <h1 className="login-title">Create Account</h1>
-          <p className="login-tagline">Om Veneer Pvt. Ltd.</p>
+          <p className="login-tagline">Om Laminates Pvt. Ltd.</p>
 
           <div className="divider">
             <div className="divider-line" />
@@ -422,7 +422,7 @@ const Register = () => {
               Already have an account?{' '}
               <Link to="/login">Sign In Instead</Link>
             </p>
-            <p className="copyright">© {new Date().getFullYear()} Om Veneer ERP · All rights reserved.</p>
+            <p className="copyright">© {new Date().getFullYear()} Om Laminates ERP · All rights reserved.</p>
           </div>
         </div>
       </div>

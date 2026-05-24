@@ -89,7 +89,7 @@ function CompanyPage() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-2xl text-white max-w-3xl mx-auto drop-shadow-lg font-medium"
           >
-            Om Veneer Pvt. Ltd. has been serving the plywood industry for over a decade, providing consistent, high-quality veneer raw materials for scalable plywood production.
+            Om Laminates Pvt. Ltd. has been serving the plywood industry for over a decade, providing consistent, high-quality veneer raw materials for scalable plywood production.
           </motion.p>
         </div>
       </section>
@@ -123,7 +123,7 @@ function CompanyPage() {
             <h2 className="text-4xl font-bold font-heading text-navy mb-6">Built on Trust, Delivered with Precision.</h2>
             <div className="space-y-4 text-text-main leading-relaxed">
               <p>
-                Based in Birtamod, Jhapa, Om Veneer Pvt. Ltd. has spent the last 10 years perfecting the supply of 2.5mm and 1.8mm core and fali veneer.
+                Based in Birtamod, Jhapa, Om Laminates Pvt. Ltd. has spent the last 10 years perfecting the supply of 2.5mm and 1.8mm core and fali veneer.
               </p>
               <p>
                 Our philosophy is simple: plywood factories need predictability. By maintaining strict quality controls on thickness and moisture, and ensuring reliable dispatch, we help factories reduce waste and maintain steady production lines.
@@ -296,7 +296,7 @@ function CompanyPage() {
             </div>
             <div className="mt-8 pt-6 border-t border-navy-lighter">
               <p className="font-bold font-heading text-xl text-white">Founder & Managing Director</p>
-              <p className="text-orange font-bold uppercase tracking-widest text-sm mt-1">Om Veneer Pvt. Ltd.</p>
+              <p className="text-orange font-bold uppercase tracking-widest text-sm mt-1">Om Laminates Pvt. Ltd.</p>
             </div>
           </div>
         </div>

@@ -127,7 +127,7 @@ const CompanyCreate = () => {
                   <h2 className="text-2xl font-bold text-gray-800">Basic Details</h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
-                  <InputField label="Company Name" name="name" value={formData.name} onChange={handleChange} required placeholder="Om Veneer Pvt. Ltd." />
+                  <InputField label="Company Name" name="name" value={formData.name} onChange={handleChange} required placeholder="Om Laminates Pvt. Ltd." />
                   <InputField label="Email Address" type="email" name="email" value={formData.email} onChange={handleChange} placeholder="contact@company.com" />
                   <InputField label="Phone Number" name="phone" value={formData.phone} onChange={handleChange} placeholder="+91 xxxxx xxxxx" />
                   <div>

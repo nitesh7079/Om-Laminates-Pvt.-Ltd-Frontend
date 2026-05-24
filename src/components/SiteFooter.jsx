@@ -11,7 +11,7 @@ function SiteFooter() {
             <Link to="/" className="flex items-center gap-3">
               <img
                 src="https://res.cloudinary.com/ddpcospqm/image/upload/v1779616308/om_veneer/products/logo.png"
-                alt="Om Veneer logo"
+                alt="Om Laminates logo"
                 className="h-20 w-auto rounded bg-white p-2"
               />
             </Link>
@@ -55,7 +55,7 @@ function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between border-t border-gray-700 pt-8 text-xs text-gray-400 sm:flex-row">
-          <p>© {new Date().getFullYear()} Om Veneer Pvt. Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Om Laminates Pvt. Ltd. All rights reserved.</p>
           <div className="mt-4 flex gap-4 sm:mt-0">
             <Link to="/contact" className="hover:text-white">Support</Link>
             <Link to="/products" className="hover:text-white">Products</Link>
