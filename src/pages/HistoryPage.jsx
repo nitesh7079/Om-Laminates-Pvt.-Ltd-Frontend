@@ -29,7 +29,7 @@ const historyMilestones = [
     title: "Cross-Border Supply Confidence",
     detail:
       "After establishing strong trust across Nepal, Om extended supply support toward India-facing demand channels. Cross-border coordination required tighter planning, documentation discipline, and consistent quality matching, all of which were integrated into daily operations. This phase marked a maturity shift: from a local supplier to a structured regional partner capable of supporting long-term manufacturing requirements with stability and confidence.",
-    image: productImageLinks["Door Board Ply"],
+    image: "https://res.cloudinary.com/ddpcospqm/image/upload/v1779616253/om_veneer/company/IMG_6702.jpg",
   },
 ];
 
