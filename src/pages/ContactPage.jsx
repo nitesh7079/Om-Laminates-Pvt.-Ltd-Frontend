@@ -6,6 +6,8 @@ function ContactPage() {
   const [contact, setContact] = useState({
     name: "",
     phone: "",
+    companyName: "",
+    address: "",
     inquiryType: "Raw Material Enquiry",
     message: "",
   });
@@ -35,6 +37,8 @@ function ContactPage() {
         setContact({
           name: "",
           phone: "",
+          companyName: "",
+          address: "",
           inquiryType: "Raw Material Enquiry",
           message: "",
         });
@@ -123,6 +127,33 @@ function ContactPage() {
                       required
                       value={contact.phone}
                       onChange={handleInput}
+                      className="w-full bg-luxury-bg border border-gray-200 rounded px-4 py-3 focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-5">
+                  <div>
+                    <label className="block text-xs font-bold text-navy uppercase tracking-widest mb-2">Company Name</label>
+                    <input
+                      type="text"
+                      name="companyName"
+                      required
+                      value={contact.companyName}
+                      onChange={handleInput}
+                      placeholder="Your Company Name"
+                      className="w-full bg-luxury-bg border border-gray-200 rounded px-4 py-3 focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-bold text-navy uppercase tracking-widest mb-2">Address</label>
+                    <input
+                      type="text"
+                      name="address"
+                      required
+                      value={contact.address}
+                      onChange={handleInput}
+                      placeholder="Your Address"
                       className="w-full bg-luxury-bg border border-gray-200 rounded px-4 py-3 focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange transition-colors"
                     />
                   </div>
