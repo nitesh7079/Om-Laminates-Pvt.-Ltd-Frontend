@@ -18,21 +18,29 @@ function ContactPage() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await fetch("https://formsubmit.co/ajax/niteshrajkumar66@gmail.com", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { 
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
-        body: JSON.stringify(contact)
+        body: JSON.stringify({
+          access_key: "28f6958a-35d5-40d2-8b06-cbabf16107d2",
+          ...contact
+        })
       });
-      window.alert("Thank you. Our team will contact you soon.");
-      setContact({
-        name: "",
-        phone: "",
-        inquiryType: "Raw Material Enquiry",
-        message: "",
-      });
+      const result = await response.json();
+      if (result.success) {
+        window.alert("Thank you. Our team will contact you soon.");
+        setContact({
+          name: "",
+          phone: "",
+          inquiryType: "Raw Material Enquiry",
+          message: "",
+        });
+      } else {
+        throw new Error("Submission failed");
+      }
     } catch (error) {
       window.alert("There was an error sending your message. Please try again or email us directly.");
     }
