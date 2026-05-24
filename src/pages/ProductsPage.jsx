@@ -79,7 +79,7 @@ function ProductsPage() {
 
   const apiBase =
     import.meta.env.VITE_API_BASE_URL ||
-    "https://backend-ju5k.onrender.com/api";
+    "https://om-laminates-pvt-ltd-backend.onrender.com/api";
 
   useEffect(() => {
     const fetchProducts = async () => {

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { cacheGet, cacheSet } from './cache';
 
-const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-ju5k.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://om-laminates-pvt-ltd-backend.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,

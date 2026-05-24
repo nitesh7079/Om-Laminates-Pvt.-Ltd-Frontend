@@ -59,7 +59,7 @@ import CompanyEdit from "./pages/erp/CompanyEdit";
 import "./index.css";
 
 // ── Keep-alive ping ──
-const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-ju5k.onrender.com/api';
+const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://om-laminates-pvt-ltd-backend.onrender.com/api';
 const pingBackend = () => {
   fetch(`${BACKEND_URL}/health`, { method: 'GET' })
     .then(() => console.log('[Keep-alive] Backend pinged successfully'))
